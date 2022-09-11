@@ -26,7 +26,7 @@ async function getCard() {
             const cardRow = document.getElementById('cardContainer__row');
             const div = document.createElement('div');
             cardRow.appendChild(div);
-            div.className = 'col';
+            div.className = 'col d-flex justify-content-center';
             div.innerHTML = card;
         });
         barText();
