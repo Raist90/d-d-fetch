@@ -69,7 +69,7 @@ footer {
 }
 
 .thumbnailContainer {
-  width: 390px;
+  max-width: 390px;
   height: 220px;
 }
 .thumbnailContainer img {
