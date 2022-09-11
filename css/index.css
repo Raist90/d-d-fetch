@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.titleBanner {
+  padding: 20px 0;
+  background: #0d6efd;
+  color: #fff;
+  position: relative;
+}
+.titleBanner h1 {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.titleBanner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("../images/banner_bg.avif") no-repeat center center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.card {
+  margin-bottom: 50px;
+  border: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: inherit;
+  height: 160px;
+  object-fit: cover;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: 1px solid gainsboro;
+}
+
+.introContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.introContainer div {
+  width: 60%;
+}
+.introContainer .btn-group {
+  width: auto;
+}
+
+.thumbnailContainer {
+  width: 390px;
+  height: 220px;
+}
+.thumbnailContainer img {
+  object-fit: cover;
+}
+
+.thumbnail {
+  border: 1px solid #0d6efd;
+}
+
+/*# sourceMappingURL=index.css.map */
