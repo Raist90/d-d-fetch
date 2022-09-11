@@ -96,6 +96,6 @@ footer {
 // mobile
 @media (min-width: 320px) and (max-width: 480px) {
     .thumbnailContainer {
-        max-width: 390px;
+        width: 90%;
     }
 }

@@ -13,7 +13,7 @@ async function getNews() {
         articles.forEach(article => {
             const artBody = ` 
                 <div class="thumbnailContainer mb-3">
-                    <img width=390 height=220 src="${article.thumbnail}" class="thumbnail text-center">
+                    <img src="${article.thumbnail}" class="thumbnail text-center">
                 </div>
                 <div class="title"><h4>${article.title}<h4></div>
                 <div class="pubDate"><p><strong>Posted on:</strong> ${article.pubDate}</p></div>
