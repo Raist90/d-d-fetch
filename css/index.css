@@ -84,7 +84,7 @@ footer {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .thumbnailContainer {
-    width: 90%;
+    max-width: 95%;
   }
 }
 
